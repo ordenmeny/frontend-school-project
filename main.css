@@ -119,3 +119,10 @@
         max-width: 720px;
     }
   }
+
+
+@media (min-width: 769px){
+    .height-navbar{
+        height: 98px;
+    }
+}
