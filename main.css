@@ -166,8 +166,8 @@
 
 
 .card-img-top {
-  height: 200px; /* Set the desired height for the images */
-  object-fit: cover; /* Ensure the image fills the container without distortion */
+  height: 200px;
+  object-fit: cover;
 }
 
 .intro-block-links{
@@ -176,4 +176,20 @@
   color: black;
   font-size: 30px;
   font-weight: 600;
+}
+
+.card { 
+  border: none; 
+}
+
+.support-block-text{
+  display: inline-block;
+  max-width: 100%;
+}
+
+
+@media(max-width:1621px){
+  .adaptive-footer-logo{
+    width:100%;
+  }
 }
